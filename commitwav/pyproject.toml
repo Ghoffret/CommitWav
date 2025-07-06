@@ -1,0 +1,10 @@
+[project]
+name = "commitwav"
+version = "0.1.0"
+description = "Turn git commits into a concept album"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+
+[project.scripts]
+commitwav = "commitwav.cli:main"
